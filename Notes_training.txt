@@ -1,0 +1,52 @@
+network:	train: 
+35		valid: 
+relu(100)
+relu(100)
+1
+
+
+network:	train: 0.15
+35		valid: 0.29
+100
+100
+1
+
+network:	train: 0.15	train: 0.227
+35		valid: 0.22	valid: 0.327
+200
+1
+
+network:	train: 
+35		valid: 
+300
+1
+
+network:	train: 
+35		valid: 
+200
+200
+1
+
+network: 
+35
+250
+1
+
+network:	train: 
+35		valid: 
+150
+1
+
+network:	train: 0.137	train: 0.155
+35		valid: 0.286	valid: 0.23
+200
+100
+1
+
+network:	train: 0.22
+35		valid: 0.38
+200
+100
+50
+20
+1
