@@ -1,52 +1,27 @@
-network:	train: 
-35		valid: 
-relu(100)
-relu(100)
+network:
+norm(35)
+norm(200)
 1
 
+2e shuffle:
+Goals:		Points:		Assists:	Primary assists:	+/-:
+t:12		t: 0.42		t: 0.22		t: 0.06			t: 1.10
+v:16		v: 0.47		v: 0.26		v: 0.06			v: 1.37
 
-network:	train: 0.15
-35		valid: 0.29
-100
-100
+
+
+network:
+norm(35)
+norm(200)
+norm(100)
 1
 
-network:	train: 0.15	train: 0.227
-35		valid: 0.22	valid: 0.327
-200
-1
+1er shuffle:
+Goals:		Points:		Assists:	Primary assists:	+/-:
+train: 0.12	t: 0.45		t: 0.23		t: 0.06			t: 1.01
+valid: 0.17	v: 0.40		v: 0.18		v: 0.04			v: 1.30
 
-network:	train: 
-35		valid: 
-300
-1
-
-network:	train: 
-35		valid: 
-200
-200
-1
-
-network: 
-35
-250
-1
-
-network:	train: 
-35		valid: 
-150
-1
-
-network:	train: 0.137	train: 0.155
-35		valid: 0.286	valid: 0.23
-200
-100
-1
-
-network:	train: 0.22
-35		valid: 0.38
-200
-100
-50
-20
-1
+2e shuffle:
+Goals:		Points:		Assists:	Primary assists:	+-:
+t: 0.12		t: 0.43		t: 0.22		t: 0.06			t: 1.08
+v: 0.16		v: 0.48		v: 0.26		v: 0.06			v: 1.38
