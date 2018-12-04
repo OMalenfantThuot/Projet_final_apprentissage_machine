@@ -1,27 +1,53 @@
-network:
+network:	std: 0.2366
 norm(35)
 norm(200)
 1
 
-2e shuffle:
-Goals:		Points:		Assists:	Primary assists:	+/-:
-t:12		t: 0.42		t: 0.22		t: 0.06			t: 1.10
-v:16		v: 0.47		v: 0.26		v: 0.06			v: 1.37
-
-
-
-network:
+network:	std: 0.2419
 norm(35)
 norm(200)
 norm(100)
 1
 
-1er shuffle:
-Goals:		Points:		Assists:	Primary assists:	+/-:
-train: 0.12	t: 0.45		t: 0.23		t: 0.06			t: 1.01
-valid: 0.17	v: 0.40		v: 0.18		v: 0.04			v: 1.30
+network:	std: 0.2474
+norm(35)
+norm(200)
+norm(200)
+1
 
-2e shuffle:
-Goals:		Points:		Assists:	Primary assists:	+-:
-t: 0.12		t: 0.43		t: 0.22		t: 0.06			t: 1.08
-v: 0.16		v: 0.48		v: 0.26		v: 0.06			v: 1.38
+network:	
+norm(35)
+norm(200)
+norm(200)
+norm(100)
+1
+
+network:	
+35
+200
+200
+200
+1
+
+network:	std: 0.2467
+35
+150
+300
+200
+1
+
+network:
+35		std: 0.2492
+200
+300
+200
+1
+
+35		std: 0.2372
+250
+1
+
+35		std: 0.2514
+300
+1
+
