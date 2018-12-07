@@ -2,7 +2,6 @@
 
 1. Position (Position)
 2. Games played (GP)
-3. Expected differential (E +/-)
 4. Individual Point Participation (IPP%)
 5. Time of ice per game (TOI/GP)
 6. Individual Corsi For (ICF)
